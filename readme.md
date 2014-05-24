@@ -26,18 +26,18 @@ assignment.
 	"mean" or "std".  While meanfreq() takes the mean of processed data and not raw measurements,
 	they were still interpreted as mean calculations and therefore included in the dataset.  For
 	the purposes of this assignment it was more reasonable to be over inclusive of fields than
-	risk not including pertinent data columns.
+	risk not including pertinent data columns 
 
-7. Append y (activity ids), and subject data records as columns in the merged x data
+7.Append y (activity ids), and subject data records as columns in the merged x data
 
 8.Add useful activity labels as a column by merging the x data and the activity data
 by the y field.  The y field in the x data corresponds to the first column in the 
-activity table.
+activity table
 
-8.Remove any unuseable columns
+9.Remove any unuseable columns
 
-9.Make any fixes needed for clear labels
+10.Make any fixes needed for clear labels
 	*Most labels seem intuitive enough, but there were several that incorrectly contained 'bodybody'
-	in the label where it should just be 'body' to avoid confusion. These are removed.
+	in the label where it should just be 'body' to avoid confusion. These are removed
 
-10. Write data to table.  This table will be written to same directory and called "tidy.txt"
+11. Write data to table.  This table will be written to same directory and called "tidy.txt"
